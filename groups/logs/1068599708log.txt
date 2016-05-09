@@ -1,0 +1,48 @@
+[ Fri May  6 18:52:02 2016 ]=>  الزعيم [94465349] added SuperGroup
+ 
+[ Fri May  6 18:53:02 2016 ]=>  الزعيم [94465349] promoted @S_O_F_90
+ 
+[ Fri May  6 18:54:43 2016 ]=>  الزعيم [94465349] requested SuperGroup bots list
+ 
+[ Fri May  6 18:55:18 2016 ]=>  الزعيم [94465349] requested SuperGroup users list
+ 
+[ Fri May  6 18:56:12 2016 ]=>  الزعيم [94465349] requested SuperGroup muteslist
+ 
+[ Fri May  6 18:56:17 2016 ]=>  الزعيم [94465349] requested SuperGroup settings 
+ 
+[ Fri May  6 19:48:30 2016 ]=>  الزعيم [94465349] deleted user user#id214938529
+ 
+[ Fri May  6 19:48:30 2016 ]=>  الزعيم [94465349] deleted user user#id214938529
+ 
+[ Fri May  6 20:40:59 2016 ]=>  الزعيم [94465349] deleted user user#id131218193
+ 
+[ Fri May  6 20:40:59 2016 ]=>  الزعيم [94465349] deleted user user#id131218193
+ 
+[ Sun May  8 07:48:59 2016 ]=>  الزعيم [94465349] requested SuperGroup bots list
+ 
+[ Sun May  8 07:49:19 2016 ]=>  الزعيم [94465349] locked link posting 
+ 
+[ Sun May  8 15:46:29 2016 ]=>  الزعيم [94465349] locked link posting 
+ 
+[ Sun May  8 16:36:12 2016 ]=>  الزعيم [94465349] deleted user user#id106721965
+ 
+[ Sun May  8 16:36:12 2016 ]=>  الزعيم [94465349] deleted user user#id106721965
+ 
+[ Sun May  8 18:38:32 2016 ]=>  الزعيم[94465349] set [219571187] as owner by username
+ 
+[ Sun May  8 18:39:54 2016 ]=>  الزعيم [94465349] demoted admin @S_O_F_90
+ 
+[ Sun May  8 18:40:37 2016 ]=>  الزعيم [94465349] requested SuperGroup bots list
+ 
+[ Sun May  8 18:43:13 2016 ]=>  الزعيم [94465349] set: [47407105] as owner by reply
+ 
+[ Sun May  8 18:59:52 2016 ]=>  الزعيم [94465349] promoted mod: @@MeMeNeM[120724983] by reply
+ 
+[ Sun May  8 19:08:45 2016 ]=>  (^～^) [207432196] deleted user user#id207432196
+ 
+[ Sun May  8 19:08:45 2016 ]=>  (^～^) [207432196] deleted user user#id207432196
+ 
+[ Sun May  8 19:17:17 2016 ]=>  الزعيم [94465349] locked member 
+ 
+[ Mon May  9 19:15:48 2016 ]=>  الزعيم [94465349] added SuperGroup
+ 
