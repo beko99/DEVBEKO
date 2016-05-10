@@ -302,4 +302,4 @@ return {
 }
 --By @imandaneshi :)
 --https://github.com/SEEDTEAM/TeleSeed/blob/test/plugins/admin.lua
----Modified by @Rondoozle for supergroups
+---Modified by @Th3_BOOS for supergroups
