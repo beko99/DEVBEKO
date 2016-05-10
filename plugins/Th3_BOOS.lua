@@ -1,4 +1,4 @@
-﻿do 
+do 
 
 local function run(msg, matches) 
 
@@ -12,7 +12,9 @@ if ( msg.text ) then
    
 end 
 
--- #DEV @Th3_BOOS 
+-- #DEV @Th3_BOOS
+
+end 
 
 return { 
   patterns = { 
