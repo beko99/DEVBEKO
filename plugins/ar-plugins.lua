@@ -1,7 +1,7 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY SAJJAD Th3_BOOS                   ▀▄ ▄▀ 
+▀▄ ▄▀    BY  Th3_BOOS                   ▀▄ ▄▀ 
 ▀▄ ▄▀     BY Th3_BOOS (@Th3_BOOS)    ▀▄ ▄▀ 
 ▀▄ ▄▀ JUST WRITED BY Th3_BOOS          ▀▄ ▄▀   
 ▀▄ ▄▀        plugins  : تفعيل الملفات      ▀▄ ▄▀ 
