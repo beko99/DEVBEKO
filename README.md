@@ -1,17 +1,18 @@
 # Th3_BOOS 
 
 طريقه تنصيب البوت
-# Let's install the bot.
-افتـح ترمنـــأل وخلي 👇🏿 Open Terminal and vinegary
+
+افتـح ترمنـــأل وخلي 
 
 sudo apt-get update 
 
-ورهأَ خلي 👇🏿 And vinegary
+ورهأَ خلي 👇
 
 redis-server
-تركه مفتوح✋🏿  Leave it open Terminal
 
-وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
+تركه مفتوح✋
+
+وفتح ترمنال ثاني وخلي 👇
 ************************************************************
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes
 ************************************************************
@@ -19,19 +20,19 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 **************
 git clone https://github.com/ahm3d97/Th3_BOOS.git
 *****************************************************
-ورهأ خلي 👇🏿 And vinegary
+ورهأ خلي 👇
 **************************
 cd Th3_BOOS
 **************************
-ورهأَ خلي👇🏿 And vinegary
+ورهأ خلي 👇
 **************************
 chmod +x launch.sh
 **************************
-ورهأَ خلي👇🏿 And vinegary
+ورهأ خلي 👇
 **************************
 ./launch.sh install
 **************************
-ورهأَ خلي👇🏿 And vinegary
+ورهأ خلي 👇
 **************************
 ./launch.sh 
 **************************
