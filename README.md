@@ -6,7 +6,7 @@
 
 sudo apt-get update 
 
-ورهأَ خلي 👇
+ورهأ خلي 👇
 
 redis-server
 
