@@ -1,9 +1,9 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY SAJJAD NOORI                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY SAJAD NOORI (@SAJJADNOORI)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY SAJJAD NOORI          ▀▄ ▄▀   
+▀▄ ▄▀    BY Th3_BOOS                  ▀▄ ▄▀ 
+▀▄ ▄▀     BY Th3_BOOS (@Th3_BOOS)    ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY Th3_BOOS          ▀▄ ▄▀   
 ▀▄ ▄▀        insta  : انستا                ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
@@ -48,7 +48,7 @@ local function instagramUser(msg, query)
 	if user.data.website ~= '' then
 		text = text.."❣ الموقع : "..user.data.website.."\n"
 	end
-	text = text.."\n❣ #المطور @SAJJADNOORI\n❣ #قناة_البوت : @S94IQ"
+	text = text.."\n❣ #المطور @Th3_BOOS\n❣ #قناة_البوت : @soossso"
 	local file_path = download_to_file(user.data.profile_picture,"insta.png")     -- disable this line if you want to send profile photo as sticker
 	--local file_path = download_to_file(user.data.profile_picture,"insta.webp")    -- enable this line if you want to send profile photo as sticker
 	local cb_extra = {file_path=file_path}
@@ -82,7 +82,7 @@ local function instagramMedia(msg, query)
 		  text = text.."❣ الاسم : "..jdat.data.user.full_name.."\n"
 		  text = text.."❣ عدد الايك: "..jdat.data.likes.count.."\n"
 	end
-	text = text.."\n@SAJJADNOORI\n❣ #قناة_البوت : @S94IQ"
+	text = text.."\n@Th3_BOOS\n❣ #قناة_البوت : @soossso"
 	send_msg(receiver,text,ok_cb,false)
 end
 local function run(msg, matches)
