@@ -1,9 +1,9 @@
 --[[
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY OmarReal                       ▀▄ ▄▀ 
-▀▄ ▄▀     BY OmarReal (Omar_Real7)         ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY OmarReal              ▀▄ ▄▀   
+▀▄ ▄▀    BY Th3_BOOS                       ▀▄ ▄▀ 
+▀▄ ▄▀     BY Th3_BOOS (Th3_BOOS)           ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY Th3_BOOS              ▀▄ ▄▀   
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
