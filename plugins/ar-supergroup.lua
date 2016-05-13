@@ -45,7 +45,7 @@ local function check_member_super(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = '✔️ تمً تًفعَـيل ألمَجمَوَعـه ✔️.'
+	  local text = 'تم تفعيل المجموعه بنجاح🌞'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -69,7 +69,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-	  local text = '✔️ تمً تَعطَيلَ ألمَجمَوَعـه ✔️.'
+	  local text = 'تم تعطيل المجموعه😑👎'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -1641,7 +1641,7 @@ local function run(msg, matches)
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked contact posting")
 				return lock_group_contacts(msg, data, target)
 			end
-			if matches[2] == 'الكل' then
+			if matches[2] == 'التحذير' then
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked enabled strict settings")
 				return enable_strict_rules(msg, data, target)
 			end
