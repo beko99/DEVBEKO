@@ -27,7 +27,7 @@ do local _ = {
     "ar-voice",
     "get",
     "Hello",
-    "ingroup",
+    "delall",
     "inpm",
     "inrealm",
     "invite",
