@@ -216,11 +216,11 @@ local function lock_group_spam(msg, data, target)
   end
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'yes' then
-    return '😠 مضاد السبام بالفعل مفتوح 💊🔓'
+    return 'الكلايش بلفعل مقفله لا تلح 😒💔'
   else
     data[tostring(target)]['settings']['lock_spam'] = 'yes'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ فتح مضاد السبام 💊 🔓'
+    return 'تم قفل الكلايش🤓🔪'
   end
 end
 
@@ -230,11 +230,11 @@ local function unlock_group_spam(msg, data, target)
   end
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'no' then
-    return '😠 مضاد السبام بالفعيل مقفول 💊 ✔️'
+    return 'الكلايش بالفعل مفتوحه ✅️'
   else
     data[tostring(target)]['settings']['lock_spam'] = 'no'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ قفل مضاد السبام 💊 🔐'
+    return 'تم فتح الكلايش 💝😊'
   end
 end
 
@@ -1084,7 +1084,7 @@ local function run(msg, matches)
 	local print_name = user_print_name(msg.from):gsub("‮", "")
 	local name_log = print_name:gsub("_", " ")
 	local data = load_data(_config.moderation.data)
-		if matches[1] == 'تفعيل المجموعه' and not matches[2] then
+		if matches[1] == 'تفعيل' and not matches[2] then
 			if not is_admin1(msg) and not is_support(support_id) then
 				return
 			end
@@ -1098,7 +1098,7 @@ local function run(msg, matches)
 			channel_set_admin(receiver, 'user#id'..msg.from.id, ok_cb, false)
 		end
 
-		if matches[1] == 'تعطيل المجموعه' and is_admin1(msg) and not matches[2] then
+		if matches[1] == 'تعطيل' and is_admin1(msg) and not matches[2] then
 			if not is_super_group(msg) then
 				return reply_msg(msg.id, '👈 ألمَجمَوَعــهَ بألــتأكيَدَ تَمَ تَعَطيَلهَأَ ✔️..', ok_cb, false)
 			end
@@ -1982,8 +1982,8 @@ end
 
 return {
   patterns = {
-	"^(تفعيل المجموعه)$",
-	"^(تعطيل المجموعه)$",
+	"^(تفعيل)$",
+	"^(تعطيل)$",
 	"^([Mm]ove) (.*)$",
 	"^(معلومات المجموعه)$",
 	"^(الاداريين)$",
