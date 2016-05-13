@@ -114,7 +114,7 @@ pre_process = pre_process
 
 } 
 
---[[ This plugin is by | @stepl |
+--[[ This plugin is by | @Th3_BOOS |
 
 any other plugins are fake
 
