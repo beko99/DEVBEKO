@@ -103,7 +103,7 @@ local function kick_ban_res(extra, success, result)
 		receiver = 'channel#id'..chat_id
 	  end
 	  if success == 0 then
-		return send_large_msg(receiver, "Cannot find user by that username!")
+		return send_large_msg(receiver, "ماكو هيج معرف تاكد كبدي❤️")
 	  end
       local member_id = result.peer_id
       local user_id = member_id
@@ -145,7 +145,7 @@ local function run(msg, matches)
 local support_id = msg.from.id
  if matches[1]:lower() == 'ايدي' and msg.to.type == "chat" or msg.to.type == "user" then
     if msg.to.type == "user" then
-      return "❣ ايدي البوت : "..msg.to.id.. "\n\n❣ ايدي حسابك : "..msg.from.id.. "\n\n❣ #المطور @SAJJADNOORI"
+      return "❣ ايدي البوت : "..msg.to.id.. "\n\n❣ ايدي حسابك : "..msg.from.id.. "\n\n❣ #المطور @Th3_BOOS"
     end
     if type(msg.reply_id) ~= "nil" then
       local print_name = user_print_name(msg.from):gsub("‮", "")
