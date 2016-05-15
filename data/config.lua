@@ -13,8 +13,6 @@ do local _ = {
     "get",
     "getfile",
     "getlink",
-    "help-dev",
-    "help",
     "help1",
     "help2",
     "image",
