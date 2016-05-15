@@ -470,12 +470,12 @@ local function set_public_membermod(msg, data, target)
 	save_data(_config.moderation.data, data)
   end
   if group_public_lock == 'yes' then
-    return '😠 المجموعه عامه بالفعل ✔️'
+    return 'المراقبه  شغاله بالفعل😠✔️️'
   else
     data[tostring(target)]['settings']['public'] = 'yes'
     save_data(_config.moderation.data, data)
   end
-  return '👥 المجموعه الان اصبحت عامه ♨️✔️'
+  return 'تم تشغيل المراقبه ☺️❤️️✔️'
 end
 
 local function unset_public_membermod(msg, data, target)
@@ -489,12 +489,12 @@ local function unset_public_membermod(msg, data, target)
 	save_data(_config.moderation.data, data)
   end
   if group_public_lock == 'no' then
-    return '👥المجموعه ❌ ليست عامه ❗️'
+    return 'المجموعه غير مراقبه بالفعل😒✅'
   else
     data[tostring(target)]['settings']['public'] = 'no'
 	data[tostring(target)]['long_id'] = msg.to.long_id 
     save_data(_config.moderation.data, data)
-    return '👥 المجموعه الان ليست عامه ❗️'
+    return 'المراقبه غير مفعله❌'
   end
 end
 
@@ -1700,7 +1700,7 @@ local function run(msg, matches)
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] set flood to ["..matches[2].."]")
 			return 'تم ☑️ تعيين التكرار ‼️⚙ للعدد 👈🏿: '..matches[2]
 		end
-		if matches[1] == 'عامه' and is_momod(msg) then
+		if matches[1] == 'المراقبه' and is_momod(msg) then
 			local target = msg.to.id
 			if matches[2] == 'نعم' then
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] set group to: public")
@@ -2025,7 +2025,7 @@ return {
 	"^(فتح) ([^%s]+)$",
 	"^(كتم)$",
 	"^(كتم) (.*)$",
-	"^(عامه) (.*)$",
+	"^(المراقبه) (.*)$",
 	"^(الاعدادات)$",
 	"^(القوانين)$",
 	"^(ضع تكرار) (%d+)$",
