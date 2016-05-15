@@ -44,7 +44,7 @@ do local _ = {
     "welcome",
     "sof",
     "sof2",
-    "krer",
+    
     
     
   },
