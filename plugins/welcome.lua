@@ -1,9 +1,9 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY Th3_BOOS                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY Th3_BOOS (@Th3_BOOS)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY Th3_BOOS          ▀▄ ▄▀   
+▀▄ ▄▀    BY Th3_BOOS                       ▀▄ ▄▀ 
+▀▄ ▄▀     BY Th3_BOOS (@Th3_BOOS)          ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY Th3_BOOS              ▀▄ ▄▀   
 ▀▄ ▄▀          Welcome  : ترحيب            ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]] 
@@ -76,7 +76,7 @@ local function description_rules(msg, nama)
       local text = text.."للخروج من المجموعة /مغادره ☹️"
       local text = text..""
       local text = text.."                                               "
-      local text = text.."قنـــأتـنأ تأبعونأَ هنـَأ [فضولك حيخليك تدخل هنا👇🏻]"
+      local text = text.."من فضلك تابع قناة البوت❤️]"
       local text = text..""
       local text = text.."                                               "
       local text = text.." @dev_Th3_BOOS \n✋🏿☝🏿️"
@@ -108,7 +108,7 @@ local function run(msg, matches)
       description_rules(msg, nama)
    elseif matches[1] == "chat_del_user" then
        local bye_name = msg.action.user.first_name
-       return 'وداعا عزيزي 🌹  '..bye_name
+       return 'الله وياك كبدي سد الباب وراك 💔🌚  '..bye_name
    end
 end
 
