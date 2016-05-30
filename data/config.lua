@@ -8,7 +8,6 @@ do local _ = {
     "badword",
     "banhammer",
     "broadcast",
-    "delall",
     "dev",
     "get",
     "getfile",
