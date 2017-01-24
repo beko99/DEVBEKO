@@ -4,7 +4,7 @@
     ▀▄ ▄▀    BY DEVBEKO                   ▀▄ ▄▀ 
     ▀▄ ▄▀     BY DEVBEKO (@D_1_T)    ▀▄ ▄▀ 
     ▀▄ ▄▀ JUST WRITED BY DEVBEKO          ▀▄ ▄▀   
-    ▀▄ ▄▀          help1  : اضف مطور           ▀▄ ▄▀ 
+    ▀▄ ▄▀          addsudo  : اضف مطور           ▀▄ ▄▀ 
     ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
 local function getindex(t,id) 
