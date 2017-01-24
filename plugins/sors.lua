@@ -11,7 +11,7 @@
 do
 
 function run(msg, matches)
-  return 'سورس DEVBEKO https://github.com/beko99/DEVBEKO المطور @D_1_t \n'
+  return 'سورس DEVBEKO https://github.com/beko99/DEVBEKO.git المطور @D_1_t \n'
 end
 
 return {
