@@ -22,6 +22,7 @@ do local _ = {
     "leave_ban",
     "lock-bot",
     "lock-fwd",
+    "lockedit",
     "map",
     "me",
     "msg_checks",
