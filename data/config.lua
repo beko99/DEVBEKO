@@ -14,11 +14,9 @@ do local _ = {
     "getlink",
     "help1",
     "help2",
-    "image",
     "info",
     "inpm",
     "inrealm",
-    "insta",
     "invite",
     "isup",
     "leave_ban",
@@ -30,7 +28,6 @@ do local _ = {
     "newgroup",
     "onservice",
     "owners",
-    "play",
     "plugins",
     "robot",
     "rplay_bot",
@@ -40,9 +37,6 @@ do local _ = {
     "supergroup",
     "textphoto",
     "voice",
-    "welcome",
-    "sof",
-    "sof2",
     
     
     
@@ -54,7 +48,7 @@ do local _ = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    94465349
+    244252169
   }
 }
 return _
