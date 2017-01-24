@@ -23,6 +23,7 @@ do local _ = {
     "lock-bot",
     "lock-fwd",
     "lockedit",
+    "lock_inlin",
     "map",
     "me",
     "msg_checks",
