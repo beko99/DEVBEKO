@@ -24,7 +24,6 @@ do local _ = {
     "lock-fwd",
     "lockedit",
     "lock_inlin",
-    "map",
     "me",
     "msg_checks",
     "newgroup",
@@ -32,13 +31,12 @@ do local _ = {
     "owners",
     "plugins",
     "robot",
+    "reply",
     "rplay_bot",
     "set",
     "sors",
-    "sticker",
     "supergroup",
-    "textphoto",
-    "voice",
+    "wlc",
     
     
     
