@@ -1,48 +1,61 @@
 --[[ 
-▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
-▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY DEVBEKO                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY DEVBEKO (@d_1_t)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY @DEVBEKO          ▀▄ ▄▀   
-▀▄ ▄▀     ADD SUDO  : اضافه مطور           ▀▄ ▄▀ 
-▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
+    ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
+    ▀▄ ▄▀                                      ▀▄ ▄▀ 
+    ▀▄ ▄▀    BY DEVBEKO                   ▀▄ ▄▀ 
+    ▀▄ ▄▀     BY DEVBEKO (@D_1_T)    ▀▄ ▄▀ 
+    ▀▄ ▄▀ JUST WRITED BY DEVBEKO          ▀▄ ▄▀   
+    ▀▄ ▄▀          help1  : اضف مطور           ▀▄ ▄▀ 
+    ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
-do
-
-local function callback(extra, success, result)
-  vardump(success)
-  vardump(result)
-end
-
-local function run(msg, matches)
- if matches[1] == 'اضف مطور' then
-        chat = 'chat#'..msg.to.id
-        user1 = 'user#'..18293081
-        chat_add_user(chat, user1, callback, false)
-	return "تم اضافة المطور الى هذه المجموعة"
-      end
-if matches[1] == 'اضف مطور' then
-        chat = 'chat#'..msg.to.id
-        user2 = 'user#'..18293081
-        chat_add_user(chat, user2, callback, false)
-	return "تم اضافة المطور الى هذه المجموعة"
-      end
+local function getindex(t,id) 
+for i,v in pairs(t) do 
+if v == id then 
+return i 
+end 
+end 
+return nil 
+end 
  
- end
-
-return {
-  description = "Invite Sudo and Admin", 
-  usage = {
-    "/addsudo : invite Bot Sudo", 
-	},
-  patterns = {
-    "^(اضف مطور)",
-    "^(اضف مطور)",
-    "^(add dev)",
-    "^(add dev)",
-  }, 
-  run = run,
+function reload_plugins( ) 
+  plugins = {} 
+  load_plugins() 
+end 
+   function h_k_a(msg, matches) 
+    if tonumber (msg.from.id) == 244252169 then 
+       if matches[1]:lower() == "اضف مطور" then 
+          table.insert(_config.sudo_users, tonumber(matches[2])) 
+      print(matches[2] ..'\nتـمـ ☑️ اضـافـه مـطـور فـي الـبـوتـ ❗️') 
+     save_config() 
+     reload_plugins(true) 
+      return matches[2] ..'\nتـمـ ☑️ اضـافـه مـطـور فـي الـبـوتـ ❗️' 
+   elseif matches[1]:lower() == "حذف مطور"  then 
+      local k = tonumber(matches[2]) 
+          table.remove(_config.sudo_users, getindex( _config.sudo_users, k)) 
+      print(matches[2] ..'\nتـمـ ⚠️ حـذفـ الـمـطـور مـن الـبـوتـ ❗️') 
+     save_config() 
+     reload_plugins(true) 
+      return matches[2] ..'\nتـمـ ⚠️ حـذفـ الـمـطـور مـن الـبـوتـ ❗️' 
+      end 
+   end 
+end 
+return { 
+patterns = { 
+"^(اضف مطور) (%d+)$", 
+"^(حذف مطور) (%d+)$",
+"^[#!/](اضف مطور) (%d+)$", 
+"^[#!/](حذف مطور) (%d+)$"
+}, 
+run = run 
 }
--- arabic : @d_1_t
 
-end
+-- تم التعديل و التعريب بواسطه @D_1_t
+
+--[[ 
+    ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
+    ▀▄ ▄▀                                      ▀▄ ▄▀ 
+    ▀▄ ▄▀    BY DEVBEKO                   ▀▄ ▄▀ 
+    ▀▄ ▄▀     BY DEVBEKO (@D_1_T)    ▀▄ ▄▀ 
+    ▀▄ ▄▀ JUST WRITED BY DEVBEKO          ▀▄ ▄▀   
+    ▀▄ ▄▀          help1  : اضف مطور           ▀▄ ▄▀ 
+    ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
+--]]
