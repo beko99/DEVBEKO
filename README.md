@@ -1,4 +1,4 @@
-# Th3_BOOS 
+# DEVBEKO 
 
 طريقه تنصيب البوت
 
@@ -18,11 +18,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 وراها حط
 **************
-git clone https://github.com/ahm3d97/Th3_BOOS.git
+git clone https://github.com/beko99/DEVBEKO.git
 *****************************************************
 وراها حط
 **************************
-cd Th3_BOOS
+cd DEVBEKO
 **************************
 وراها خلي
 **************************
