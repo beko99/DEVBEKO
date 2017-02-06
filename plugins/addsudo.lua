@@ -24,17 +24,17 @@ end
     if tonumber (msg.from.id) == 244252169 then 
        if matches[1]:lower() == "اضف مطور" then 
           table.insert(_config.sudo_users, tonumber(matches[2])) 
-      print(matches[2] ..'\nتـمـ ☑️ اضـافـه مـطـور فـي الـبـوتـ ❗️') 
+      print(matches[2] ..'\nتـم اضـافـه مـطـور فـي الـبـوت❗️') 
      save_config() 
      reload_plugins(true) 
-      return matches[2] ..'\nتـمـ ☑️ اضـافـه مـطـور فـي الـبـوتـ ❗️' 
+      return matches[2] ..'\nتـم اضـافـه مـطـور فـي الـبـوت❗️' 
    elseif matches[1]:lower() == "حذف مطور"  then 
       local k = tonumber(matches[2]) 
           table.remove(_config.sudo_users, getindex( _config.sudo_users, k)) 
-      print(matches[2] ..'\nتـمـ ⚠️ حـذفـ الـمـطـور مـن الـبـوتـ ❗️') 
+      print(matches[2] ..'\nتـم حـذف الـمـطـور مـن الـبـوت') 
      save_config() 
      reload_plugins(true) 
-      return matches[2] ..'\nتـمـ ⚠️ حـذفـ الـمـطـور مـن الـبـوتـ ❗️' 
+      return matches[2] ..'\nتـم حـذف الـمـطـور مـن الـبـوت' 
       end 
    end 
 end 
